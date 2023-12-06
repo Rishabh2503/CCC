@@ -10,7 +10,11 @@ module.exports = {
       backgroundColor: {
         '#090A0F': '#090A0F',
       },
+      animation: {
+        'skew-scale': 'skewX(-45deg) scale(1, 1)',
+        'skew-scale-hover': 'skewX(-45deg) scale(0, 1)',
+      },
     },
   },
-  plugins: [],
-}
+  plugins: [require("daisyui")],
+};

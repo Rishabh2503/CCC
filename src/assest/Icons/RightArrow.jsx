@@ -7,21 +7,21 @@ export function RightArrow() {
   <rect x="55.636" y="86.5125" width="3.43325" height="54.5221" rx="1.71663" transform="rotate(44.782 55.636 86.5125)" fill="url(#paint3_linear_16_65)"/>
   <defs>
     <linearGradient id="paint0_linear_16_65" x1="0" y1="5.07827" x2="25.8145" y2="5.07827" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#D9D9D9"/>
-      <stop offset="1" stop-color="#D9D9D9" stop-opacity="0"/>
+      <stop stopColor="#D9D9D9"/>
+      <stop offset="1" stopColor="#D9D9D9" stopOpacity="0"/>
     </linearGradient>
     <linearGradient id="paint1_linear_16_65" x1="9.01072" y1="5.07826" x2="30.9287" y2="5.07826" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#F4ED49"/>
-      <stop offset="1" stop-color="#F4ED49" stop-opacity="0"/>
+      <stop stopColor="#F4ED49"/>
+      <stop offset="1" stopColor="#F4ED49" stopOpacity="0"/>
     </linearGradient>
     <linearGradient id="paint2_linear_16_65" x1="41.8319" y1="0.140625" x2="41.8319" y2="136.407" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#FF70C4"/>
-      <stop offset="1" stop-color="#9C2D6E" stop-opacity="0"/>
+      <stop stopColor="#FF70C4"/>
+      <stop offset="1" stopColor="#9C2D6E" stopOpacity="0"/>
     </linearGradient>
     <linearGradient id="paint3_linear_16_65" x1="57.3526" y1="86.5125" x2="57.3526" y2="141.035" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#D9D9D9" stop-opacity="0.587222"/>
-      <stop stop-color="#D9D9D9" stop-opacity="0"/>
-      <stop offset="1" stop-color="#D9D9D9"/>
+      <stop stopColor="#D9D9D9" stopOpacity="0.587222"/>
+      <stop stopColor="#D9D9D9" stopOpacity="0"/>
+      <stop offset="1" stopColor="#D9D9D9"/>
     </linearGradient>
   </defs>
 </svg>
