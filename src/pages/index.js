@@ -11,28 +11,41 @@ import { Location } from "@/assest/Icons/Loction";
 import { Calendar } from "@/assest/Icons/Calender";
 import CustomButton from "@/components/Button/Button";
 import HorizontalLine from "@/assest/Images/Line";
+import Faculty from "./Faculty";
+import ParticleComponent from "@/components/Particles/ParticleArea";
+import ParticleArea from "@/components/Particles/ParticleArea";
+// import dynamic from "next/dynamic";
+
+// const ParticleComponentDynamic = dynamic(() => import("@/components/Particles/ParticleArea"), {
+//   ssr: false, // This ensures that the component doesn't get rendered on the server side
+// });
 const Home = () => {
   return (
    <>
       <Head>
         <title>Cloud Computing Cell</title>
+        </Head>
+        <ParticleArea />
+        <div>
         <div className="relative">
           <Image
             src="/assest/Images/Rohit.svg"
             alt="Rohit Negi"
             width={500}
             height={300}
-            className="fixed top-0 right-0"
+            className="absolute top-0 right-0"
             style={{ width: "35%", height: "auto" }}
             priority
           />
         </div>
-      </Head>
-      <main>
+        </div>
+      <main> 
+      {/* NavBar */}
         <div className="align-left">
           <Navbar />
         </div>
-
+        
+        {/* Title */}
         <div className="flex items-center m-16 space-x-16">
           <LeftArrow />
           <p className={styles.Tech}>Tech Buzz</p>
@@ -58,7 +71,9 @@ const Home = () => {
             </p>
           </div>
         </div>
-        <div className="fixed right-[1%] text-right text-2xl text-slate-100 mt-8">
+
+        {/* Speaker */}
+        <div className="absolute right-[1%] text-right text-2xl text-slate-100 mt-8">
           <p className="text-3xl mb-2">
             <b>Speaker</b>
           </p>
@@ -76,6 +91,11 @@ const Home = () => {
         <div className="mt-[12%]">
         <HorizontalLine />
         </div>
+        {/* Faculty */}
+        <div>
+        <Faculty/>
+        </div>
+        
         
         
       </main>

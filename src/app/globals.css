@@ -20,7 +20,7 @@
 }
 
 body {
-  @apply min-h-screen  text-blue-500 bg-#090A0F bg-cover bg-center bg-no-repeat;
+  @apply min-h-screen  text-blue-500 bg-cover bg-center bg-no-repeat;
   font-family: 'Poppins', sans-serif;
   background-image: url("../assest/Background.png"); 
 }

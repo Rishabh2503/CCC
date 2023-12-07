@@ -35,7 +35,7 @@ const Navbar = () => {
 };
 
 const NavLink = ({ href, text, isActive }) => {
-  const linkClass = `btn text-white ${isActive ? "bg-white text-black" : "bg-transparent border-none"}`;
+  const linkClass = `btn ${isActive ? "bg-white text-black" : "bg-transparent border-none text-white"}`;
 
   return (
     <Link href={href} className={linkClass}>
