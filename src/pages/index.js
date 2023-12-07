@@ -12,7 +12,6 @@ import { Calendar } from "@/assest/Icons/Calender";
 import CustomButton from "@/components/Button/Button";
 import HorizontalLine from "@/assest/Images/Line";
 import Faculty from "./Faculty";
-import ParticleComponent from "@/components/Particles/ParticleArea";
 import ParticleArea from "@/components/Particles/ParticleArea";
 // import dynamic from "next/dynamic";
 
