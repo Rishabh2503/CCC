@@ -13,11 +13,7 @@ import CustomButton from "@/components/Button/Button";
 import HorizontalLine from "@/assest/Images/Line";
 import Faculty from "./Faculty";
 import ParticleArea from "@/components/Particles/ParticleArea";
-// import dynamic from "next/dynamic";
 
-// const ParticleComponentDynamic = dynamic(() => import("@/components/Particles/ParticleArea"), {
-//   ssr: false, // This ensures that the component doesn't get rendered on the server side
-// });
 const Home = () => {
   return (
    <>
